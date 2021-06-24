@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <style>
+        body {
+            background-color: #FFF9F5;
+        }
+        header {
+            display: flex;
+            margin-top: 50px;
+            align-items: center;
+            color: black;
+        }
+        #title {
+             font-family: "Bookman Old Style";
+             font-size: 30px;
+             font-weight: bold;
+             margin-left: 30px;
+             margin-bottom: 20px;
+         }
+        .btn_package {
+            margin-left: 100px;
+        }
+        .dropbtn {
+            font-family: "Bookman Old Style";
+            font-size: 20px;
+            width: 150px;
+            color: black;
+            padding: 10px;
+
+            border: none;
+        }
+        .dropdown {
+            position: relative;
+            display: inline-block;
+            margin: 20px 10px 40px 10px;
+            color: white;
+        }
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            min-width: 300px;
+            background-color: darkseagreen;
+            border: none;
+        }
+        .dropdown-content a{
+            display: block;
+            color: black;
+            font-family: Bookman Old Style;
+            padding: 12px 16px;
+        }
+
+        .dropdown-content a:hover {
+            background-color: coral;
+        }
+
+        .dropdown:hover .dropdown-content {display: block;}
+        .dropdown:hover .dropbtn {background-color: darkseagreen;}
+
+        nav {
+            align-content: center;
+        }
+
+        #footer {
+            margin-top: 50px;
+        }
+        .foot_info {
+            font-family: Bookman Old Style;
+            font-weight: bold;
+            margin-top: 15px;
+            margin-left: 30px;
+            color: black;
+        }
+
+
+    </style>
+</head>
+<body>
+    <header>
+        <div id="title">Hi! It's Fresh Market.</div>
+
+        <div class="btn_package">
+            <div class="dropdown">
+                <button class="dropbtn">Veggie</button>
+                <div class="dropdown-content">
+                    <a href="#">Eco-friendly</a>
+                    <a href="#">Potato</a>
+                    <a href="#">Cabbage</a>
+                    <a href="#">Mushroom</a>
+                    <a href="#">Others</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Fruit</button>
+                <div class="dropdown-content">
+                    <a href="#">Seasonal fruits</a>
+                    <a href="#">Domestic fruits</a>
+                    <a href="#">Imported fruits</a>
+                    <a href="#">Nuts</a>
+                </div>
+            </div>
+
+            <div class="dropdown">
+                <button class="dropbtn">Fish&Meat</button>
+                <div class="dropdown-content">
+                    <a href="#">Fish</a>
+                    <a href="#">Pork</a>
+                    <a href="#">Beef</a>
+                    <a href="#">Eggs</a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <nav>
+        <div id="img">
+            <img src="farm.jpg" width="1000">
+        </div>
+    </nav>
+
+    <footer>
+        <div id="footer">
+            <p class="foot_info"">Contact</p>
+            <p class="foot_info"">Phone: 010-8803-3257</p>
+            <p class="foot_info"">E-mail: dltmddus361@kookmin.ac.kr</p>
+        </div>
+    </footer>
+</body>
+</html>
